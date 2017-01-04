@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=WindowMaker
+Comment=Log in using WindowMaker
+Exec=/usr/bin/wmaker
+TryExec=/usr/bin/wmaker
+Icon=/usr/share/WindowMaker/Icons/GNUstep.xpm
+Type=Application

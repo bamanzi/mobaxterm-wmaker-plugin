@@ -3,6 +3,7 @@
   PopupSwitchMenu = NO;
   MenuStyle = normal;
   DisableMiniwindows = NO;
+  DisableWorkspacePager = NO;
   OpenTransientOnOwnerWorkspace = NO;
   EdgeResistance = 30;
   WorkspaceBorderSize = 0;
@@ -14,6 +15,7 @@
     "/usr/share/WindowMaker/Pixmaps",
     "/usr/include/X11/pixmaps",
     "~/GNUstep/Library/WindowMaker/Pixmaps",
+    "~/GNUstep/Library/WindowMaker/CachedPixmaps",
     "/usr/share/icons",
     "/usr/local/share/pixmaps",
     "/usr/share/pixmaps"
@@ -21,6 +23,7 @@
   PixmapPath = (
     "~/GNUstep/Library/WindowMaker/Pixmaps",
     "~/GNUstep/Library/WindowMaker/Backgrounds",
+    "~/GNUstep/Library/WindowMaker/CachedPixmaps",
     "/usr/share/WindowMaker/Pixmaps",
     "/usr/share/WindowMaker/Backgrounds",
     "/usr/include/X11/pixmaps",
@@ -41,6 +44,7 @@
   NewStyle = "new";
   DisableDock = NO;
   DisableClip = NO;
+  DisableDrawers = NO;
   Superfluous = YES;
   StickyIcons = NO;
   SaveSessionOnExit = NO;
@@ -108,7 +112,6 @@
   MenuTextFont = "Sans:pixelsize=12";
   IconTitleFont = "Sans:pixelsize=9";
   ClipTitleFont = "Sans:bold:pixelsize=10";
-  DisplayFont = "Sans:pixelsize=12";
   LargeDisplayFont = "Sans:pixelsize=24";
   HighlightColor = white;
   HighlightTextColor = black;
@@ -129,4 +132,8 @@
   MenuTitleBack = (solid, black);
   MenuTextBack = (solid, "rgb:aa/aa/aa");
   IconBack = (dgradient, "rgb:a6/a6/b6", "rgb:51/55/61");
+  ClipAutocollapseDelay = 1000;
+  ClipAutolowerDelay = 1000;
+  ClipAutoexpandDelay = 600;
+  ClipAutoraiseDelay = 600;
 }
